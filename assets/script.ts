@@ -44,7 +44,7 @@ class Articolo {
   }
 
   getAcquistoCapo(): number {
-    console.log("sconto" + this.getSaldoCapo());
+    console.log("lo sconto" + this.getSaldoCapo());
     return Number((this.prezzoivainclusa - this.getSaldoCapo()).toFixed(2));
   }
 }
