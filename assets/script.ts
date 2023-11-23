@@ -1,4 +1,6 @@
 let url: string = "https://mocki.io/v1/765b2daf-41d5-4e94-a0d5-abd918f57b8f";
+let urlDario: string =
+  "https://61fb890c87801d0017a2c55c.mockapi.io/v1/metadata";
 
 class Articolo {
   id: number;
