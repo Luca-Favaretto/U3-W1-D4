@@ -18,7 +18,7 @@ var Articolo = /** @class */ (function () {
     };
     Articolo.prototype.getAcquistoCapo = function () {
         console.log("sconto" + this.getSaldoCapo());
-        return parseInt((this.prezzoivainclusa - this.getSaldoCapo()).toFixed(2));
+        return Number((this.prezzoivainclusa - this.getSaldoCapo()).toFixed(2));
     };
     return Articolo;
 }());
